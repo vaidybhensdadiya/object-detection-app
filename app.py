@@ -3,11 +3,13 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 os.environ["QT_QPA_PLATFORM"] = "offscreen"
 
+import cv2
+cv2.setNumThreads(0)
 import streamlit as st
 from ultralytics import YOLO
 import numpy as np
 from PIL import Image
-import cv2
+
 
 # ==============================
 # Page Config
