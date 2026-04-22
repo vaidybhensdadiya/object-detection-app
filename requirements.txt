@@ -1,8 +1,10 @@
-streamlit==1.32.0
+--constraint constraints.txt
+
+streamlit
 ultralytics==8.0.196
 
 numpy==1.26.4
-Pillow==10.0.0
+Pillow
 
 torch==2.1.2
 torchvision==0.16.2
