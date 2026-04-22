@@ -2,6 +2,10 @@ import os
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 os.environ["QT_QPA_PLATFORM"] = "offscreen"
 
+# 🔥 REAL FIX (must be here)
+import subprocess
+subprocess.run("pip uninstall -y opencv-python", shell=True)
+
 import cv2
 cv2.setNumThreads(0)
 
