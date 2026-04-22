@@ -1,5 +1,3 @@
---constraint constraints.txt
-
 streamlit
 ultralytics==8.0.196
 
